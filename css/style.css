@@ -1,3 +1,29 @@
+@font-face {
+  font-family: Circe-Regular;
+  src: url(../fonts/Circe-Regular.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Circe-Light;
+  src: url(../fonts/Circe-Light.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Circe-ExtraBold;
+  src: url(../fonts/Circe-ExtraBold.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Circe-Regular", sans-serif;
+  font-size: 14px;
+}
+
 .row.top {
   width: auto;
   height: 60px;
