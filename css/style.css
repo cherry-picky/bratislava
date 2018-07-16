@@ -1,0 +1,37 @@
+.row.top {
+  width: auto;
+  height: 60px;
+  background-color: #313131;
+}
+
+.row.primary {
+  width: auto;
+  height: 120px;
+  background-color: #E13325;
+}
+
+.row.menu {
+  width: auto;
+  height: 60px;
+}
+
+.promo {
+  width: auto;
+  height: 645px;
+}
+
+.popular-items {
+  width: auto;
+  height: 1539px;
+  background-color: #F3F3F3;
+}
+.news {
+  width: auto;
+  height: 1543px;
+}
+footer {
+  width: auto;
+  height: 310px;
+  background-color: #313131;
+}
+
