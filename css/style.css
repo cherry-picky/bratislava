@@ -90,7 +90,7 @@ body {
   background-color: #E13325;
   color: #ffffff;
   border: 1px solid #E7584D;
-  font-family: "Circe-Light", sans-serif;
+  font-family: "Circe-Regular", sans-serif;
   font-size: 14px;
   margin: 0;
   padding: 14px 10px;
@@ -104,7 +104,7 @@ body {
   background-color: #E7584D;
   color: #ffffff;
   border: none;
-  font-family: "Circe-Light", sans-serif;
+  font-family: "Circe-Regular", sans-serif;
   font-size: 14px;
   margin: 0;
   padding: 0;
@@ -194,8 +194,94 @@ body {
 }
 
 .promo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   width: auto;
-  height: 645px;
+  height: 644px;
+
+}
+.promo .big {
+  position: relative;
+  width: 842px;
+  height: 540px;
+  background: url("../img/promo-big.png") no-repeat center;
+  filter: contrast(1.2);
+  background-size: auto;
+  box-sizing: border-box;
+  border: 1px solid #979797;
+  margin: 42px 20px 62px 0px;
+}
+
+.promo-big-title {
+  position: absolute;
+  top: 347px;
+  left: 112px;
+  width: 412px;
+  height: 43px;
+  color: #ffffff;
+  font-size: 36px;
+  font-family: "Circe-Light", sens-serif;
+}
+
+.promo-big-price {
+  position: absolute;
+  top: 402px;
+  left: 111px;
+  width: 81px;
+  height: 20px;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.promo input[type="submit"] {
+  position: absolute;
+  top: 435px;
+  left: 112px;
+  width: 112px;
+  height: 40px;
+  background-color: #E13325;
+  color: #ffffff;
+  border: none;
+  font-family: "Circe-Light", sans-serif;
+  font-size: 14px;
+}
+
+.promo .small {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 405px;
+  height: 540px;
+  background-color: #313131;
+  margin: 42px 0px 62px 0px;
+}
+
+.promo-small-title-1 {
+  width: auto;
+  height: 86px;
+  font-family: "Circe-Light", sens-serif;
+  font-size: 36px;
+  color: #ffffff;
+  line-height: 33px;
+  margin-top: 46px;
+  margin-left: 40px; 
+}
+
+.promo-small-image {
+  width: 405px;
+  height: 317px;
+  background: url("../img/promo-small.png") no-repeat center; 
+  background-size: contain;
+}
+
+.promo-small-title-2 {
+  width: auto;
+  height: 44px;
+  font-size: 14px;
+  color: #ADADAD;
+  margin-left: 40px;
+  margin-bottom: 33px;
 }
 
 .popular-items {
