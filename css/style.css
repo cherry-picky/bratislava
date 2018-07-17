@@ -287,9 +287,142 @@ body {
 .popular-items {
   width: auto;
   height: 1539px;
-  background-color: #F3F3F3;
+  background-color: #F3F3F3; 
 }
-.news {
+
+.container .popular {
+  min-width: 1140px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title {
+  width: 100%;
+  padding-top: 86px;
+  padding-left: 80px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.section-title h2 {
+  font-size: 36px;
+  font-family: "Circe-Light", sans-serif;
+  color: #313131;
+  margin: 0;
+}
+
+.catalog {
+  width: 100%;
+  height: 950px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+.catalog-item {
+  display: flex;
+  flex-direction: column;
+  width: 296px;
+  height: 424px;
+  background-color: #ffffff;
+}
+
+.item-category {
+  color: #ADADAD;
+  margin-top: 10px;
+  margin-left: 36px;
+}
+
+.item-name {
+  width: 229px;
+  height: 54px;
+  color: #313131;
+  font-family: "Circe-Light", sans-serif;
+  font-size: 24px;
+  margin-top: 8px;
+  margin-left: 33px;
+}
+
+.price-and-buy {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 36px;
+}
+
+.item-price {
+  color: #E13325;
+  font-family: "Circe-ExtraBold", sans-serif;
+  font-size: 18px;
+}
+
+.item-buy a {
+  color: #E13325;
+  text-decoration: none;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  height: 440px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.info-card-img {
+  height: 336px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 296px;
+  height: 336px;
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+
+.info-icon {
+  margin-bottom: 30px;
+}
+
+.info-title {
+  width: 236px;
+  height: 70px;
+  font-size: 24px;
+  font-family: "Circe-Light";
+  color: #313131;
+  margin-bottom: 15px;
+}
+
+.info-text {
+  color: #313131;
+  width: 223px;
+  margin-bottom: 40px;
+}
+
+.info-more {
+  margin-bottom: 20px;
+}
+
+.info-more a {
+  color: #E13325;
+  text-decoration: none;
+}
+
+
+
+
+/*.news {
   width: auto;
   height: 1543px;
 }
