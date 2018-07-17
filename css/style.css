@@ -419,16 +419,160 @@ body {
   text-decoration: none;
 }
 
-
-
-
-/*.news {
+.news {
   width: auto;
   height: 1543px;
 }
+
+.container .news-container {
+  min-width: 1140px;
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog-news {
+  width: 100%;
+  height: 403px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.new-item {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 403px;
+  box-sizing: border-box;
+}
+
+.new-image {
+  margin-bottom: 22px;
+}
+.new-data {
+  color: #ADADAD;
+  margin-bottom: 10px;
+}
+
+.new-text {
+  color: #313131;
+  font-family: "Circe-Light";
+  font-size: 24px;
+  margin-bottom: 10px;
+  line-height: 28px;
+}
+
+.new-more {
+  color: #E13325;
+}
+
+.new-item.mailing {
+  background-color: #F3F3F3;
+  align-items: center;
+}
+
+.mailing-subscribe {
+  font-family: "Circe-Light", sans-serif;
+  font-size: 24px;
+  color: #313131;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  width: 241px;
+  text-align: center;
+}
+
+.mailing-text {
+  color: #181818;
+  width: 185px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.mailing-email input.email {
+  width: 255px;
+  height: 55px;
+  background-color: #ffffff;
+  color: #ADADAD;
+  font-family: "Circe-Regular", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 14px 10px;
+  border: none;
+  border-radius: none;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.mailing-btn input.btn {
+  width: 255px;
+  height: 55px;
+  background-color: #E13325;
+  color: #ffffff;
+  border: none;
+  font-family: "Circe-Light", sans-serif;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.map {
+  text-align: center;
+  padding-top: 115px;
+  box-sizing: border-box;
+}
+
+.about-tir {
+  height: 392px;
+  display: flex;
+  align-items: top;
+  padding-left: 83px;
+  justify-content: flex-start;
+}
+
+.about-1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 112px; 
+}
+
+.about-1-title {
+  width: 433px;
+  font-family: "Circe-Light", sans-serif;
+  font-size: 36px;
+  color: #313131;
+  margin-top: 52px;
+  margin-bottom: 12px;
+}
+
+.about-1-contact {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.register-btn input.btn {
+  width: 188px;
+  height: 45px;
+  background-color: #E13325;
+  color: #ffffff;
+  border: none;
+  font-family: "Circe-Light", sans-serif;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.about-2 {
+  width: 630px;
+  height: 156px;
+  font-size: 17px;
+  line-height: 26px;
+  margin-top: 70px; 
+}
+
+
 footer {
   width: auto;
   height: 310px;
   background-color: #313131;
 }
+
 
