@@ -568,11 +568,72 @@ body {
   margin-top: 70px; 
 }
 
-
 footer {
   width: auto;
   height: 310px;
   background-color: #313131;
 }
 
+.footer-container {
+  min-width: 1140px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 60px;
+}
 
+.footer-about {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-name {
+  color: #606060;
+  margin-bottom: 24px;
+}
+
+.footer-contact {
+  color: #FFFFFF;
+  line-height: 30px;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul.menu {
+  list-style: none;
+  line-height: 29px;
+}
+
+ul.menu a {
+  text-decoration: none;
+  color: #E13325;
+}
+
+.footer-social {
+  display: flex;
+}
+
+.container-vk, .container-insta {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-vk {
+  width: 20px;
+  height: 12px;
+  background: url("../img/icon-vk.png") no-repeat center;
+  background-size: contain;
+}
+
+.icon-insta {
+  width: 16px;
+  height: 16px;
+  background: url("../img/icon-insta.png") no-repeat center;
+  background-size: contain;
+}
