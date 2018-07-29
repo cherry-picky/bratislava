@@ -24,17 +24,19 @@ body {
   font-size: 14px;
 }
 
-.row.top {
+.row-top-container {
+  max-width: 1440px;
+  min-width: 1440px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: auto;
-  height: 60px;
-  background-color: #313131;
   color: #ffffff;
   white-space: nowrap;
-
+  margin: 0 auto;
+  background-color: #313131;
 }
+
 .header-menu {
   display: flex;
   list-style: none;
@@ -69,14 +71,16 @@ body {
   background-size: contain;
 }
 
-.row.primary {
+.row-primary-container {
+  max-width: 1440px;
+  min-width: 1440px;
+  height: 120px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: auto;
-  height: 120px;
-  background-color: #E13325;
   color: #ffffff;
+  margin: 0 auto;
+  background-color: #E13325;
 }
 
 .header-logo {
@@ -171,12 +175,14 @@ body {
   background-size: contain;
 }
 
-.row.menu {
-  display: flex;
-  align-items: center;
-  width: auto;
+.row-menu-container {
+  max-width: 1440px;
+  min-width: 1440px;
   height: 60px;
   color: #313131;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .main-menu {
@@ -193,14 +199,16 @@ body {
   text-decoration: none;
 }
 
-.promo {
+.promo-container {
+  max-width: 1440px;
+  min-width: 1440px;
+  height: 644px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: auto;
-  height: 644px;
-
+  margin: 0 auto;
 }
+
 .promo .big {
   position: relative;
   width: 842px;
@@ -286,14 +294,16 @@ body {
 
 .popular-items {
   width: auto;
-  height: 1539px;
   background-color: #F3F3F3; 
 }
 
-.container .popular {
-  min-width: 1140px;
+.container-popular {
+  max-width: 1440px;
+  min-width: 1440px;
+  height: 1539px;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 .section-title {
@@ -389,6 +399,7 @@ body {
   padding-top: 30px;
   padding-left: 40px;
   box-sizing: border-box;
+  margin: 0 auto;
 }
 
 .info-icon {
@@ -419,15 +430,13 @@ body {
   text-decoration: none;
 }
 
-.news {
-  width: auto;
+.news-container {
+  max-width: 1440px;
+  min-width: 1440px;
   height: 1543px;
-}
-
-.container .news-container {
-  min-width: 1140px;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 .catalog-news {
@@ -568,17 +577,15 @@ body {
   margin-top: 70px; 
 }
 
-footer {
-  width: auto;
-  height: 310px;
-  background-color: #313131;
-}
-
 .footer-container {
-  min-width: 1140px;
+  max-width: 1440px;
+  min-width: 1440px;
   display: flex;
   justify-content: space-around;
   padding-top: 60px;
+  margin: 0 auto;
+  height: 310px;
+  background-color: #313131;
 }
 
 .footer-about {
