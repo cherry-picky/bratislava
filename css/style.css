@@ -22,6 +22,13 @@
 body {
   font-family: "Circe-Regular", sans-serif;
   font-size: 14px;
+  min-width: 1440px;
+  margin: 0;
+}
+
+.row-top {
+  width: auto;
+  background-color: #313131;
 }
 
 .row-top-container {
@@ -34,7 +41,6 @@ body {
   color: #ffffff;
   white-space: nowrap;
   margin: 0 auto;
-  background-color: #313131;
 }
 
 .header-menu {
@@ -71,6 +77,11 @@ body {
   background-size: contain;
 }
 
+.row-primary {
+  width: auto;
+  background-color: #E13325;
+}
+
 .row-primary-container {
   max-width: 1440px;
   min-width: 1440px;
@@ -80,7 +91,6 @@ body {
   justify-content: space-around;
   color: #ffffff;
   margin: 0 auto;
-  background-color: #E13325;
 }
 
 .header-logo {
@@ -98,7 +108,7 @@ body {
   font-size: 14px;
   margin: 0;
   padding: 14px 10px;
-  border-radius: none;
+  border-radius: 0;
   box-sizing: border-box;
 }
 
@@ -292,12 +302,12 @@ body {
   margin-bottom: 33px;
 }
 
-.popular-items {
+.popular {
   width: auto;
   background-color: #F3F3F3; 
 }
 
-.container-popular {
+.popular-container {
   max-width: 1440px;
   min-width: 1440px;
   height: 1539px;
@@ -508,7 +518,7 @@ body {
   margin: 0;
   padding: 14px 10px;
   border: none;
-  border-radius: none;
+  border-radius: 0;
   box-sizing: border-box;
   margin-bottom: 20px;
 }
@@ -567,6 +577,7 @@ body {
   font-family: "Circe-Light", sans-serif;
   font-size: 14px;
   margin-bottom: 30px;
+  border-radius: 0;
 }
 
 .about-2 {
@@ -577,6 +588,11 @@ body {
   margin-top: 70px; 
 }
 
+footer {
+  width: auto;
+  background-color: #313131;
+}
+
 .footer-container {
   max-width: 1440px;
   min-width: 1440px;
@@ -585,7 +601,6 @@ body {
   padding-top: 60px;
   margin: 0 auto;
   height: 310px;
-  background-color: #313131;
 }
 
 .footer-about {
