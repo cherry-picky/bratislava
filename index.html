@@ -31,21 +31,24 @@
             <img src="img/logo.png" alt="Bratislava" width="260" height="53">
         </div>
         <div class="header-search">
-          <form>
-            <input type="text" name="search" class="search" placeholder="Искать..."> 
-            <button>Поиск</button>
-          </form>
+            <input type="text" name="search" class="search" placeholder="Искать..."><button>Поиск</button>
         </div>
         <div class="header-compare">
           <a href="#"><div class="icon-compare"></div></a>
           <div><a href="#">Сравнение</a></div>
         </div>
         <div class="header-select">
-          <a href="#"><div class="icon-select"></div></a>
+          <a href="#">
+            <div class="icon-select"></div>
+            <div class="counter select-counter">1</div>
+          </a>
           <div><a href="#">Избранное</a></div>
         </div>
         <div class="header-basket">
-          <a href="#"><div class="icon-basket"></div></a>
+          <a href="#">
+            <div class="icon-basket"></div>
+            <div class="counter basket-counter">12</div>
+          </a>
           <div><a href="#">Корзина<br>4 500 pуб.</a></div>
         </div>
       </div>
@@ -67,9 +70,7 @@
         </ul>
       </div>
     </div>
-
-  </header>
-  
+  </header>  
   <main>
     
     <div class="promo">
@@ -78,6 +79,20 @@
           <div class="promo-big-title">Лук блочный MK-CBА2</div>
           <div class="promo-big-price">13 200.-</div>
           <button>Купить</button>
+          <div class="slider">
+            <input type="radio" id="btn-1" name="toggle">
+            <input type="radio" id="btn-2" name="toggle" checked>
+            <input type="radio" id="btn-3" name="toggle">
+            <input type="radio" id="btn-4" name="toggle">
+            <input type="radio" id="btn-5" name="toggle">
+            <div class="slider-controls">
+              <label for="btn-1"></label>
+              <label for="btn-2"></label>
+              <label for="btn-3"></label>
+              <label for="btn-4"></label>
+              <label for="btn-5"></label>
+            </div>
+          </div>
         </div>
         <div class="promo small">
           <div class="promo-small-title-1">Бесплатная стрельба при покупке лука</div>
@@ -95,6 +110,7 @@
         <div class="catalog">
           <div class="catalog-item">
             <img src="img/item-1.jpg" alt="Лук блочный MK-CBА2" width="296" height="260">
+            <div class="new-promo">NEW</div>
             <div class="item-category">Луки</div>
             <div class="item-name">Лук блочный MK-CBА2</div>
             <div class=price-and-buy>
@@ -155,6 +171,7 @@
 
           <div class="catalog-item">
             <img src="img/item-1.jpg" alt="Лук блочный MK-CBА2" width="296" height="260">
+            <div class="new-promo">NEW</div>
             <div class="item-category">Луки</div>
             <div class="item-name">Лук блочный MK-CBА2</div>
             <div class=price-and-buy>
